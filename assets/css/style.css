@@ -1,0 +1,45 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Splash */
+#splash {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #530060, #E7098B);
+}
+
+#splash img {
+  margin-top: 30vh;
+}
+
+/* section login */
+#signup {
+  background-image: url(../img/bg_street.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.img-lyft-top {
+  width: 80%;
+}
+
+.lyft-center {
+  padding-top: 44%;
+  padding-bottom: 60%;
+}
+
+/* botones login */
+
+.btns-signup button {
+  background-color: transparent;
+  color: #fff; 
+  border: 1px solid #fff;
+  font-size: 1.3em;
+  padding: 6%;
+}
+
+.btns-signup button:hover {
+  color:#F27;
+}
